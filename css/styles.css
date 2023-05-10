@@ -1,0 +1,64 @@
+/* pallete */
+/* iris rgba(77, 90, 229, 1) links color*/
+/* ocean rgba(64, 75, 191, 1) */
+/* NAVY BLUE rgba(46, 47, 66, 1) overlay color*/
+/* SLATE rgba(67, 68, 85, 1) body text color*/
+
+:root {
+  --primary-text-color: rgba(67, 68, 85, 1);
+  --secondary-text-color: rgba(46, 47, 66, 1);
+  --links-text-color: rgba(77, 90, 229, 1);
+}
+
+ul {
+  list-style: none;
+}
+body {
+  color: var(--primary-text-color);
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.16;
+  color: var(--links-text-color);
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+
+.logo-secondary {
+  color: var(--secondary-text-color);
+}
+
+.header-nav .link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.address .link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+}
+
+.footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
