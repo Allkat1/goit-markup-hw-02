@@ -48,23 +48,22 @@ body {
   color: var(--cloud-color);
 }
 
-.header-nav.link {
+.header-nav {
   font-family: inherit;
   font-weight: 500;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
-  text-decoration: none;
 }
 
-.address.link {
+.address {
   font-family: inherit;
   font-style: normal;
   letter-spacing: 0.02em;
   color: var(--primary-text-colore);
-  text-decoration: none;
 }
 
 .link {
+  text-decoration: none;
 }
 
 .link:hover,
@@ -137,7 +136,22 @@ body {
   text-transform: capitalize;
   color: var(--navy-blue);
 }
+
+.hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
 /* ----------OUR TEAM--------- */
+
 .our-team {
   background-color: var(--cloud-color);
   text-align: center;
